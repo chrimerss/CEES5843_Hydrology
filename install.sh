@@ -8,7 +8,7 @@ apt-get -q -y install python-gdal gdal-bin  > /dev/null 2>&1
 
 apt-get -q -y install python-netcdf4  > /dev/null 2>&1 
 
-unzip *.zip
+for fname in *.zip; do unzip $fname; done
 
 pip install -r requirements.txt
 
