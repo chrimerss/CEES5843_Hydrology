@@ -10,8 +10,8 @@ apt-get -q -y install python-netcdf4  > /dev/null 2>&1
 
 for fname in *.zip; do unzip $fname > /dev/null; done
 
-pip install -r requirements.txt > /dev/null
+pip install -r requirements.txt > /dev/null 2>&1
 
-cd cresthh/crest && python setup.py install > /dev/null
+cd cresthh/crest && python setup.py install > /dev/null 2>&1
 
 echo "Completed!"
