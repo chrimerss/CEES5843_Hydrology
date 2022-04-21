@@ -3,3 +3,11 @@
 # CEES5843_Hydrology
 
 This repository is an introduction to our hydrologic-hydraulic model CREST-iMAP. Please click the badge to direct to Google colab notebook.
+
+To run it on your own computer:
+
+```
+git clone https://github.com/chrimerss/CEES5843_Hydrology > /dev/null 2>&1
+cd CEES5843_Hydrology
+sh install.sh
+```
